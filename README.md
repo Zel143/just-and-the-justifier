@@ -24,6 +24,18 @@ shrinks the penalty (lowering a threshold, regularizing away past faults,
 rounding down) is cheap grace, and it is cut. Where the analogy cannot conserve
 the cost, the repo says so out loud. See `part2-metaphor/where-the-analogy-breaks.md`.
 
+## How to read this repo
+
+Four parts, two registers. Part 1 and Part 4 are essays, read them as prose.
+Part 2 is code: each notebook is a `# %%` cell-marked script with a reflection
+at the top and bottom, the numbers it prints are the argument. Part 3 reruns a
+published analysis rather than building anything new, and reads the result
+theologically in `reading.md`.
+
+Suggested order: `part1-anchor/01-*` then `02-*`, the four part2 notebooks
+in order (a, b, c, d), `part3-case-study/reproduce_the_impossibility.py` then
+`reading.md`, then `part4-synthesis/`.
+
 ## Structure
 
 | Path | What it is |
@@ -32,6 +44,28 @@ the cost, the repo says so out loud. See `part2-metaphor/where-the-analogy-break
 | `part2-metaphor/` | Four small notebooks using ML as a metaphor, each with a reflection, plus `where-the-analogy-breaks.md` |
 | `part3-case-study/` | Reproduction and theological reading of the COMPAS fairness impossibility result |
 | `part4-synthesis/` | Closing essay: what the metaphor gave and what it could not reach |
+
+## Figures
+
+**`part2-metaphor/a_the_loss_is_real.py`**, loss falls, then stops above zero.
+The floor is real noise, not a bug to fix.
+
+![loss falls, then stops above zero](part2-metaphor/figures/a_loss_floor.png)
+
+**`part2-metaphor/c_the_two_model_ledger.py`**, the centerpiece. Model A's
+debt moves to Model B in full. The total on the books never changes.
+
+![the ledger before and after substitution](part2-metaphor/figures/c_ledger.png)
+
+**`part2-metaphor/d_calibration.py`**, the model is honest about its own
+confidence, calibrated within each group. This sets up Part 3.
+
+![reliability curve for two groups](part2-metaphor/figures/d_reliability.png)
+
+**`part3-case-study/reproduce_the_impossibility.py`**, one threshold, one
+model, opposite error rates. This is the ProPublica finding.
+
+![false positive and false negative rates by group](part3-case-study/figures/error_rates_by_group.png)
 
 ## What this repo is not
 
