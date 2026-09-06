@@ -12,8 +12,6 @@
 # %% [markdown]
 # ## Reflection
 #
-# > DRAFT, your voice, RAW. Revise or replace. No dashes.
-#
 # The loss does not go to zero because the noise is really there. You can train
 # forever and it will not help. That is closer to sin than I expected a straight
 # line fit to get. Sin is not a bookkeeping mistake that a cleaner ledger clears.

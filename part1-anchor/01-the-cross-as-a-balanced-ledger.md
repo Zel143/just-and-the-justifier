@@ -1,8 +1,5 @@
 # The cross as a balanced ledger, not amnesty
 
-> Status: DRAFT (RAW). Drafted from your beat notes, in your voice. The calls at
-> the bottom are still yours. Revise in place, then shape to STRUCTURED.
-
 Amnesty fails at acknowledging the loss. The hurt party swallows what happened,
 the wrong gets waved off, and the one who caused it walks away with nothing
 changed. Pure retribution does acknowledge the loss, and it makes the offender
@@ -24,7 +21,7 @@ stays a gift to us sinners.
 
 Bonhoeffer called the counterfeit cheap grace. Grace with no cross behind it.
 Forgiveness announced so fast that nothing was ever named as wrong. The real
-thing cost God the life of his Son, which is why Bonhoeffer called it costly
+thing cost God the life of His Son, which is why Bonhoeffer called it costly
 grace. Free to receive is not the same as free to give. It is handed to us for
 nothing. It was not free for the one who handed it over. There will be Christians
 who say they believe and expect the matter to end there. Faith in Jesus is right.
@@ -50,23 +47,3 @@ bring the offender back, not only to settle accounts. At the cross, the offended
 pays the offender's debt so the offender goes free. That is the claim this
 repository is built on. Everything after it is an attempt to see the claim
 clearly, including the places where the tools I know how to use cannot reach it.
-
----
-
-## Calls still yours
-
-1. **Trinity (para 2).** DECIDED: keep it light, one line.
-2. **Eternal security (para 4).** DECIDED: narrower claim only. Para 4 says "a
-   debt paid in full is not collected again," which is about the sufficiency of
-   the payment, not whether a believer can fall away.
-3. **Para 4 and para 5 both touch "goes free."** DECIDED: leaving it. Para 5 is a
-   recap, some echo is fine.
-4. **Last sentence of para 5** points ahead to the notebooks. DECIDED: keep.
-5. **Translation.** DECIDED: ESV. Romans 3:26 quoted as ESV, wording confirmed
-   accurate.
-
-## Check before you call it done
-
-- Does every sentence about the atonement conserve the cost?
-- Is the "just and the justifier" point load-bearing, or decorative?
-- Is it your voice, or did it drift into sermon cadence you would not use?

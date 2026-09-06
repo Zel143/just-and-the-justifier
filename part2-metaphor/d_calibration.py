@@ -14,8 +14,6 @@
 # %% [markdown]
 # ## Reflection
 #
-# > DRAFT, your voice, RAW. Revise or replace. No dashes.
-#
 # A lenient judge and a truthful judge are not the same thing. A model that says
 # not guilty more often than the facts warrant is not merciful, it is
 # miscalibrated. It is wrong in a direction we happen to like. Cheap grace works

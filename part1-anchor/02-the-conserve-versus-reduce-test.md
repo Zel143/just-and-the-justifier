@@ -1,8 +1,5 @@
 # The conserve-versus-reduce test
 
-> Status: DRAFT (RAW). Drafted from the outline and the README, in your voice.
-> Calls at the bottom are yours. Revise in place, then shape to STRUCTURED.
-
 Essay 01 ended on a claim. This essay hands you the tool for checking every use
 of that claim in the rest of the repository, including mine.
 
@@ -47,20 +44,3 @@ the cost, the repository says so out loud, and
 
 The math in here can show you the shape of substitution. It cannot show you the
 substance. Keep the test in one hand and that caveat in the other.
-
----
-
-## Calls still yours
-
-1. **The three examples.** DECIDED: keep both reduce examples (threshold
-   shifting, regularization).
-2. **"including mine" (para 1).** DECIDED: keep. Signals you hold your own
-   analogies to the test too.
-3. **Length.** Around 430 words, inside the 400 to 600 target. DECIDED: fine as
-   is.
-
-## Check before you call it done
-
-- Could a reader apply this test themselves after reading, without you?
-- Did you claim more for the metaphor than "it shows the shape"?
-- Is it your voice, or did it drift.

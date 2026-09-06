@@ -12,8 +12,6 @@
 # %% [markdown]
 # ## Reflection
 #
-# > DRAFT, your voice, RAW. Revise or replace. No dashes.
-#
 # The model does not decide how bad a false positive is. A person sets that in
 # the cost matrix, and then the whole system runs on it. Change the matrix and
 # you change what the system is willing to do to people. It is a moral statement

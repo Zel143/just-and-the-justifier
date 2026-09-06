@@ -1,9 +1,5 @@
 # Where the analogy breaks
 
-> Status: DRAFT. Your words, seams merged. Short by design, around 350 words. No
-> dashes. This file is load-bearing: it is what keeps the repo from reading as a
-> gimmick. Revise in place.
-
 Machine learning is the vehicle in this repo, not the subject. The vehicle has
 limits, and naming them is part of the work.
 
@@ -42,13 +38,3 @@ limits, and naming them is part of the work.
 
 The math shows the shape of what grace and justice served for us and for God. It
 cannot show the repair of the relationship itself.
-
----
-
-## Calls still yours
-
-1. **Point 3.** The "accept the identity Christ bestowed on us" thought you had
-   here was cut. It now has a home in essay 04's final section.
-2. **"be reconciled to God" (point 3).** DECIDED: done, your call.
-3. **The summary line** is your sentence with the grammar cleaned. Rework it if
-   it still is not saying exactly what you mean.

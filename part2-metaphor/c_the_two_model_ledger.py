@@ -20,8 +20,6 @@
 # %% [markdown]
 # ## Reflection
 #
-# > DRAFT, your voice, RAW. Revise or replace. No dashes.
-#
 # The cheap version of grace is the one where the debt quietly gets smaller.
 # Nobody paid it, it just shrank. This notebook does not let that happen. The
 # number that leaves Model A arrives whole at Model B. The total on the books
@@ -29,7 +27,7 @@
 # grace, it is forgetting. What it costs Model B is that it now carries the full
 # debt it did not run up, and its own record only looks clean because someone
 # moved the weight, not because the weight was light. Christ is the one holding
-# the weight. The books balanced because he carried them.
+# the weight. The books balanced because He carried them.
 
 # %%
 import random

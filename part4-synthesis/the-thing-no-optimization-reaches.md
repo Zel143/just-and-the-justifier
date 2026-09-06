@@ -1,9 +1,5 @@
 # The thing no optimization reaches
 
-> Status: DRAFT. Drafted from the outline, in your voice. The last section is
-> left for you on purpose. Around 700 words, under the 800 to 1200 target, so
-> there is room to expand where you have more to say. Revise in place.
-
 I set out to see whether the tools I know how to use could say anything true
 about the atonement. Here is the honest account of what they did and did not do.
 
@@ -76,44 +72,19 @@ Just and the justifier. Not just, then merciful. Just in the act of justifying.
 
 ## Why I built this
 
-> DRAFT: assembled from your RAW draft and your revision notes. Your words. Go
-> through it once more for voice.
-
 I went looking because I was lost. My desires had no direction and I entertained
 them anyway, and that is how I got lost.
 
 I work in machine learning. This repo is me studying Christ with the tools I
 actually have.
 
-I did not come to Jesus by comparing religions and checking where he ranked. I
-came at him directly. And studying the doctrine, working through what the gospels
-actually claim, turned out to be a real way to know him, not the opposite of
-knowing him as a person.
+I did not come to Jesus by comparing religions and checking where He ranked. I
+came at Him directly. And studying the doctrine, working through what the gospels
+actually claim, turned out to be a real way to know Him, not the opposite of
+knowing Him as a person.
 
 What Jesus did is relational, and no one can replicate it. The code in here could
 only imitate the shape of it.
 
 So I will ask you, the reader, the question I had to ask myself. Who is Christ to
-you, and what does he want to tell you?
-
----
-
-## Calls still yours
-
-1. **"Why I built this" draft.** Assembled from your RAW draft and your revision
-   notes. Check: is the first line ("that is how I got lost") the honest bookend
-   you want, or too much of an echo. The identity thought is not stated outright
-   here anymore, the closing question does that work instead. Put it back
-   explicitly if you want it named.
-2. **Length.** Around 850 words with "Why I built this" in. Inside the 800 to
-   1200 target.
-3. **"including ones I have said myself" (para on the word).** DECIDED: keep.
-4. **The objection section.** DECIDED: keep, named directly.
-5. **Romans 3:26 translation.** DECIDED: ESV, matches essay 01.
-
-## Check before you call it done
-
-- Does the essay admit the metaphor's limits before a critic has to point them
-  out?
-- Is the last section yours, in your voice, and true rather than tidy?
-- Dashes: none.
+you, and what does He want to tell you?

@@ -1,9 +1,5 @@
 # Reading the impossibility result
 
-> Status: DRAFT. Drafted from the outline, in your voice. Calls at the bottom are
-> yours. Revise in place. Around 660 words, room to grow toward the 700 to 1000
-> target.
-
 The notebook beside this file does not build anything. It loads a public dataset,
 reproduces a result that was already published, and stops. Three facts come out
 of it, and this essay reads them.
@@ -77,29 +73,3 @@ makes an unnamed third party pay so the tuner feels better.
 
 What the machine can honestly do here is show you the trap. It cannot get you out
 of it. Getting out was never an optimization problem.
-
----
-
-## Calls still yours
-
-1. **Length.** Around 670 words, just under the 700 target. Room to add: a
-   sentence or two on the actual COMPAS numbers from the notebook (the false
-   positive rate gap), or a line on Howard Zehr's restorative-justice frame if
-   you read it.
-2. **Scripture.** DECIDED: ESV. Proverbs 17:15 quoted as ESV ("the LORD").
-3. **The Fall framing (base-rate paragraph).** DECIDED: reworked to the Genesis
-   reading you gave, Adam and Eve chose and we are born outside the garden into a
-   fallen world. Concrete causes (policing, housing, prosecution) still named
-   first so the historical injustice is not folded away into "everyone is
-   fallen." Re-read it and confirm the balance is right.
-4. **"The history that shaped these numbers."** Left deliberately non-specific.
-   Make it explicit ("the racial history") if you want it named outright.
-
-## Check before you call it done
-
-- Did you claim the model is racist in intent, or that the arithmetic is forced
-  once you require calibration on unequal base rates? Only the second is
-  defensible from the notebook.
-- Is the "why we do not build the lenient version" section unambiguous to a cold
-  reader?
-- Is it your voice, and are there any dashes.
