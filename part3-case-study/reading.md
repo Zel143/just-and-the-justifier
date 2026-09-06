@@ -29,14 +29,17 @@ errors at once, and it does not spread them evenly across groups.
 
 **The base rate gap is inherited harm.** The people being scored did not choose
 the conditions that produced the gap. Generations of policing, housing, and
-prosecution shaped those numbers before anyone in the dataset was born. A model
-asked to predict an outcome that history has bent will carry the bend forward and
-print it as a risk score. This is not a claim that individual acts do not matter.
-It is the oldest pattern there is. Adam and Eve chose, and everyone after them is
-born outside the garden, into a world already fallen, carrying consequences they
-did not set in motion. The history that shaped these numbers is one hard instance
-of it. The harm is real, and it is not the fault of the person now standing in
-front of the judge.
+prosecution shaped those numbers before anyone in the dataset was born. And the
+outcome the model predicts, rearrest within two years, is partly a measure of who
+gets watched, not only who reoffends. A model asked to predict something history
+has bent will carry the bend forward and print it as a risk score. This is not a
+claim that individual acts do not matter. The harm is real, and it is not the
+fault of the person now standing in front of the judge.
+
+There is an old word for harm that arrives ahead of the person who carries it.
+Scripture keeps returning to it: consequences running down generations, a world
+every one of us is born into rather than chooses. That is the deep pattern. The
+data shows one modern, measurable instance of it.
 
 **Moving the threshold is not grace.** You can lower the cutoff and flag fewer
 people. It feels like mercy. But the harm the score was pointing at did not go
