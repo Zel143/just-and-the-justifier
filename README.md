@@ -26,18 +26,16 @@ the cost, the repo says so out loud. See `part2-metaphor/where-the-analogy-break
 
 ## Structure
 
-| Path | What it is | Who writes it |
-| --- | --- | --- |
-| `part1-anchor/` | Two short essays that set the thesis and the test | You |
-| `part2-metaphor/` | Four small notebooks, ML as metaphor, each with a reflection | Code: repo. Reflections: you |
-| `part3-case-study/` | Reproduction and critique of a published fairness result | Code: repo. Analysis prose: you |
-| `part4-synthesis/` | Closing essay: what the metaphor gives and what it cannot reach | You |
-
-Read `WRITING.md` for how the drafting and review loop works.
+| Path | What it is |
+| --- | --- |
+| `part1-anchor/` | Two short essays: the cross as a balanced ledger, and the conserve-versus-reduce test |
+| `part2-metaphor/` | Four small notebooks using ML as a metaphor, each with a reflection, plus `where-the-analogy-breaks.md` |
+| `part3-case-study/` | Reproduction and theological reading of the COMPAS fairness impossibility result |
+| `part4-synthesis/` | Closing essay: what the metaphor gave and what it could not reach |
 
 ## What this repo is not
 
-It is **not** a risk-scoring tool and it does not build one. Part 3 reproduces a
+It is **not** a risk-scoring tool and it does not build one. Part 3 reproduces an
 already-published analysis (ProPublica's COMPAS study) to re-derive a known
 mathematical result, and reads it theologically. It does not train, tune, or
 propose a model that decides anything about a real person. A "grace-adjusted"
@@ -65,4 +63,5 @@ the standard library.
 
 ## License
 
-Code: MIT (`LICENSE`). Prose: CC BY 4.0 once written.
+Code: MIT (`LICENSE`). Prose in `part1-anchor/`, `part3-case-study/reading.md`,
+and `part4-synthesis/`: CC BY 4.0.
