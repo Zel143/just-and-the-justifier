@@ -28,13 +28,14 @@ of a right court is plain: "acquitting the innocent and condemning the guilty"
 fail evenly across groups.
 
 **The base rate gap is inherited harm.** The people being scored did not choose
-the conditions that produced the gap. Generations of policing, housing, and
-prosecution shaped those numbers before anyone in the dataset was born. And the
-outcome the model predicts, rearrest within two years, is partly a measure of who
-gets watched, not only who reoffends. A model asked to predict something history
-has bent will carry the bend forward and print it as a risk score. This is not a
-claim that individual acts do not matter. The harm is real, and it is not the
-fault of the person now standing in front of the judge.
+the conditions that produced the gap. Why the two rates differ is argued over.
+Some of it is that the label counts arrests, and arrests track where the police
+are as much as what people do. Some of it is real difference in offending, shaped
+by poverty and disinvestment that policy set in motion generations back. Every
+version of that story has the same shape. A model asked to predict something
+history has bent will carry the bend forward and print it as a risk score. This
+is not a claim that individual acts do not matter. The harm is real, and it is
+not the fault of the person now standing in front of the judge.
 
 Scripture has a long memory for harm that arrives ahead of the person who carries
 it. Consequences running down generations, a world every one of us is born into
