@@ -22,10 +22,10 @@ Here is what those facts look like next to Part 1.
 
 **A false positive is a wrongful condemnation.** It is a person the system
 flagged as a future danger who turned out not to be. The machine treated them as
-guilty of something they had not done and were not going to do. Scripture does
-not treat that lightly. "He who justifies the wicked and he who condemns the
-righteous are both alike an abomination to the LORD." The system manages both
-errors at once, and it does not spread them evenly across groups.
+guilty of something they had not done and were not going to do. The law's picture
+of a right court is plain, "acquitting the innocent and condemning the guilty"
+(Deuteronomy 25:1). A false positive is the first half failing, and it does not
+fail evenly across groups.
 
 **The base rate gap is inherited harm.** The people being scored did not choose
 the conditions that produced the gap. Generations of policing, housing, and
@@ -55,6 +55,13 @@ person is for, no step that makes a wronged party whole. Retributive prediction
 and reconciliation are different activities, and no amount of tuning turns one
 into the other. Part 1 said the cross is not a better sorting, it is a
 substitution followed by a restoration. A risk score has neither half.
+
+The God the Old Testament describes was never only a scorekeeper. "The LORD, the
+LORD, a God merciful and gracious, slow to anger, and abounding in steadfast love
+and faithfulness" (Exodus 34:6). "I have no pleasure in the death of the wicked,
+but that the wicked turn from his way and live" (Ezekiel 33:11). "As far as the
+east is from the west, so far does he remove our transgressions from us" (Psalm
+103:12). A risk model has no such motion in it. It can only sort more finely.
 
 ## Why this repo does not build a kinder version
 
