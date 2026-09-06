@@ -36,5 +36,4 @@ limits, and naming them is part of the work.
 
 ## The honest summary line
 
-The math shows the shape of what grace and justice served for us and for God. It
-cannot show the repair of the relationship itself.
+The math shows the shape of the exchange. It cannot show what it mended.

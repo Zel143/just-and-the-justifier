@@ -5,7 +5,7 @@ justice and full grace. Justice was satisfied rather than waived, and grace was
 extended at His own cost.
 
 Machine learning is the vehicle here, not the subject. The repo uses small,
-auditable models to make the idea legible, then looks honestly at the one place
+auditable models to make the idea legible, then looks honestly at one place
 society already runs a justice-versus-mercy algorithm for real: risk assessment
 in the courts.
 

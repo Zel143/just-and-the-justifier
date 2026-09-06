@@ -2,8 +2,8 @@
 # # Notebook B: cost-sensitive learning
 #
 # A classifier does not decide, on its own, how bad a false positive is compared
-# to a false negative. A person picks that. That choice, the cost matrix, is a
-# moral statement wearing a technical costume.
+# to a false negative. A person picks that. That choice, the cost matrix, is
+# where the ethics hide.
 #
 # This notebook shows the same model, the same data, three different cost
 # matrices, and three different behaviors. Then it asks: who is being charged for

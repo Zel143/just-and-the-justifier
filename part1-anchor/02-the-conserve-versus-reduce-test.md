@@ -27,10 +27,10 @@ people are held to account, and that feels like mercy. But the harm the system
 was responding to did not go anywhere. It landed on someone. Moving a threshold
 reassigns cost, it does not carry it.
 
-Reduces. Regularization gets described as the model learning to stop punishing
-every small fault in its training data. That sounds like grace. It is not. The
-model did not forgive those faults, it stopped being able to see them. A judge
-who cannot see the offense is not being merciful.
+Reduces. You could tell a story where regularization is the model learning to
+stop punishing every small fault in its training data. That sounds like grace. It
+is not. The model did not forgive those faults, it stopped being able to see
+them. A judge who cannot see the offense is not being merciful.
 
 The test is meant to be usable without me. Read an analogy, ask the one question,
 and you can usually tell within a sentence which side it is on.

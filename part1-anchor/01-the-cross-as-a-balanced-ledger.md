@@ -35,10 +35,9 @@ Where it breaks is if it makes God sound like an accountant who is satisfied onc
 a number is met. What was broken was a relationship, not a balance. The number
 language is a stand-in for something the number cannot hold. This also tells you
 what "goes free" means and does not mean. The eternal debt is paid, and a debt
-paid in full is not collected again. The gift is larger than the sin it covers.
-What it does not do is lift the consequences you still meet in this life. Saved
-from eternal death is not the same as saved from what your own choices set in
-motion.
+paid in full is not collected again. What it does not do is lift the consequences
+you still meet in this life. Saved from eternal death is not the same as saved
+from what your own choices set in motion.
 
 Put it together. The loss was real and it was named, not waved off. It was paid
 in full, so justice was not set aside. The one who paid was the party that had

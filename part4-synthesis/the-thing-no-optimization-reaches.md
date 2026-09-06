@@ -27,6 +27,17 @@ confused. It is doing exactly what it was asked. The problem is that sorting and
 restoring are different jobs, and no amount of tuning turns the first into the
 second.
 
+## The objection
+
+Someone will say that putting the crucifixion next to a machine learning model is
+small, or that it trivializes the thing. I have thought about that. The metaphor
+is the vehicle and never the cargo. I am not saying the cross is like a for loop.
+I am saying that when you try to build a picture of a cost that is fully paid and
+fully transferred, you find out fast what your tools can and cannot hold, and the
+finding out is clarifying. The honest move is to show where the picture fails,
+which is what `where-the-analogy-breaks.md` is for. A metaphor that admits its
+own edges is not decoration.
+
 ## What it could not reach
 
 A loss function is not a person. That is the whole of it, and everything else is
@@ -42,17 +53,6 @@ And the substitution in Notebook C happened because I wrote a for loop that made
 it happen. The substitution the whole repo is pointing at was chosen. Freely, in
 love, by the one who paid. Coercion would have made it a different thing, and the
 code version is coercion all the way down.
-
-## The objection
-
-Someone will say that putting the crucifixion next to a scikit-learn model is
-small, or that it trivializes the thing. I have thought about that. The metaphor
-is the vehicle and never the cargo. I am not saying the cross is like a for loop.
-I am saying that when you try to build a picture of a cost that is fully paid and
-fully transferred, you find out fast what your tools can and cannot hold, and the
-finding out is clarifying. The honest move is to show where the picture fails,
-which is what `where-the-analogy-breaks.md` is for. A metaphor that admits its
-own edges is not decoration.
 
 ## The turn
 
