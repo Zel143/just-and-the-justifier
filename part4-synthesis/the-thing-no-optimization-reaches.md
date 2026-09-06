@@ -1,0 +1,119 @@
+# The thing no optimization reaches
+
+> Status: DRAFT. Drafted from the outline, in your voice. The last section is
+> left for you on purpose. Around 700 words, under the 800 to 1200 target, so
+> there is room to expand where you have more to say. Revise in place.
+
+I set out to see whether the tools I know how to use could say anything true
+about the atonement. Here is the honest account of what they did and did not do.
+
+## What the metaphor gave
+
+Three things, and they are worth naming plainly.
+
+It gave me a word. The difference between cheap grace and the real thing is the
+difference between reduce and conserve. Cheap grace makes the debt smaller and
+calls that kindness. Real grace keeps the debt whole and changes who pays it.
+Before I worked through the notebooks I would have said that difference was
+obvious. It is not. Most of the soft versions of grace I have heard, including
+ones I have said myself, are quietly reducing the debt and hoping nobody checks
+the books.
+
+It gave me a picture. Notebook C is about fifty lines of arithmetic. Model A runs
+up a cost, Model B takes all of it, and the total on the books does not move. It
+is small and it is staged, but it shows the shape of substitution in a way a
+sentence cannot. You can watch the number leave one account and arrive whole in
+another.
+
+It gave me a case. Part 3 is what happens when a system tries to do justice by
+sorting people and has no way to get from there to mercy. The math is not
+confused. It is doing exactly what it was asked. The problem is that sorting and
+restoring are different jobs, and no amount of tuning turns the first into the
+second.
+
+## What it could not reach
+
+A loss function is not a person. That is the whole of it, and everything else is
+a footnote to that sentence. A number in a cost matrix does not bleed. Model B
+does not agree to anything. The scalars in these notebooks are finite, and what
+Christ was willing to pay is not.
+
+Optimization has no telos beyond the objective you hand it. A model can tell you
+how to minimize a number about a person. It has nothing to say about what the
+person is for. It cannot want their restoration, because it cannot want anything.
+
+And the substitution in Notebook C happened because I wrote a for loop that made
+it happen. The substitution the whole repo is pointing at was chosen. Freely, in
+love, by the one who paid. Coercion would have made it a different thing, and the
+code version is coercion all the way down.
+
+## The objection
+
+Someone will say that putting the crucifixion next to a scikit-learn model is
+small, or that it trivializes the thing. I have thought about that. The metaphor
+is the vehicle and never the cargo. I am not saying the cross is like a for loop.
+I am saying that when you try to build a picture of a cost that is fully paid and
+fully transferred, you find out fast what your tools can and cannot hold, and the
+finding out is clarifying. The honest move is to show where the picture fails,
+which is what `where-the-analogy-breaks.md` is for. A metaphor that admits its
+own edges is not decoration.
+
+## The turn
+
+So the gospel claim is not that God found the optimal tradeoff between justice and
+mercy. That framing is already wrong. It assumes the two are on a dial and you
+slide it to the best compromise.
+
+The claim is that He satisfied justice fully and extended grace fully in the same
+act, at His own cost. The debt was paid, all of it. The offender went free,
+actually free. And then He did the thing no risk model does and no optimizer can
+be pointed at. He restored the guilty party. Not just cleared the record. Gave
+them a place, a name, an identity as His own. Romans 3:26 holds because the one
+who was owed and the one who paid are the same, and the point of the paying was
+never a balanced ledger. It was to bring us back.
+
+Just and the justifier. Not just, then merciful. Just in the act of justifying.
+
+## Why I built this
+
+> DRAFT: assembled from your RAW draft and your revision notes. Your words. Go
+> through it once more for voice.
+
+I went looking because I was lost. My desires had no direction and I entertained
+them anyway, and that is how I got lost.
+
+I work in machine learning. This repo is me studying Christ with the tools I
+actually have.
+
+I did not come to Jesus by comparing religions and checking where he ranked. I
+came at him directly. And studying the doctrine, working through what the gospels
+actually claim, turned out to be a real way to know him, not the opposite of
+knowing him as a person.
+
+What Jesus did is relational, and no one can replicate it. The code in here could
+only imitate the shape of it.
+
+So I will ask you, the reader, the question I had to ask myself. Who is Christ to
+you, and what does he want to tell you?
+
+---
+
+## Calls still yours
+
+1. **"Why I built this" draft.** Assembled from your RAW draft and your revision
+   notes. Check: is the first line ("that is how I got lost") the honest bookend
+   you want, or too much of an echo. The identity thought is not stated outright
+   here anymore, the closing question does that work instead. Put it back
+   explicitly if you want it named.
+2. **Length.** Around 850 words with "Why I built this" in. Inside the 800 to
+   1200 target.
+3. **"including ones I have said myself" (para on the word).** DECIDED: keep.
+4. **The objection section.** DECIDED: keep, named directly.
+5. **Romans 3:26 translation.** DECIDED: ESV, matches essay 01.
+
+## Check before you call it done
+
+- Does the essay admit the metaphor's limits before a critic has to point them
+  out?
+- Is the last section yours, in your voice, and true rather than tidy?
+- Dashes: none.
