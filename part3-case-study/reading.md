@@ -4,8 +4,8 @@ The notebook beside this file does not build anything. It loads a public dataset
 reproduces a result that was already published, and stops. Three facts come out
 of it, and this essay reads them.
 
-First, the two groups in the data reoffend at different rates. That gap is in the
-world the data came from, not in the algorithm. Second, COMPAS is roughly
+First, the two racial groups in the data reoffend at different rates. That gap is
+in the world the data came from, not in the algorithm. Second, COMPAS is roughly
 calibrated across the two groups. A given score means about the same chance of
 reoffending whichever group you are in. Third, once both of those hold, the
 groups cannot also have equal false positive and false negative rates.
@@ -23,7 +23,7 @@ Here is what those facts look like next to Part 1.
 **A false positive is a wrongful condemnation.** It is a person the system
 flagged as a future danger who turned out not to be. The machine treated them as
 guilty of something they had not done and were not going to do. The law's picture
-of a right court is plain, "acquitting the innocent and condemning the guilty"
+of a right court is plain: "acquitting the innocent and condemning the guilty"
 (Deuteronomy 25:1). A false positive is the first half failing, and it does not
 fail evenly across groups.
 
@@ -36,10 +36,10 @@ has bent will carry the bend forward and print it as a risk score. This is not a
 claim that individual acts do not matter. The harm is real, and it is not the
 fault of the person now standing in front of the judge.
 
-There is an old word for harm that arrives ahead of the person who carries it.
-Scripture keeps returning to it: consequences running down generations, a world
-every one of us is born into rather than chooses. That is the deep pattern. The
-data shows one modern, measurable instance of it.
+Scripture has a long memory for harm that arrives ahead of the person who carries
+it. Consequences running down generations, a world every one of us is born into
+rather than chooses. That is the deep pattern, and the data shows one modern,
+measurable instance of it.
 
 **Moving the threshold is not grace.** You can lower the cutoff and flag fewer
 people. It feels like mercy. But the harm the score was pointing at did not go
