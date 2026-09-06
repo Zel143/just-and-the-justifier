@@ -31,6 +31,7 @@
 
 # %%
 import random
+import matplotlib.pyplot as plt
 
 random.seed(26)
 
@@ -123,6 +124,35 @@ assert debt_b == books_total_before, "Model B is not holding the full amount"
 print("PASS: Model A's ledger is zero.")
 print("PASS: the total on the books is unchanged.")
 print(f"PASS: Model B carries the whole {debt_b}, exactly what A owed.")
+
+# %% [markdown]
+# ## The picture
+
+# %%
+fig, ax = plt.subplots(figsize=(7, 4.5))
+labels = ["before", "after"]
+x = range(len(labels))
+width = 0.35
+
+a_vals = [books_total_before, debt_a_after]
+b_vals = [0, debt_b]
+
+ax.bar([i - width / 2 for i in x], a_vals, width, label="Model A", color="#4c72b0")
+ax.bar([i + width / 2 for i in x], b_vals, width, label="Model B", color="#dd8452")
+
+for i, v in enumerate(a_vals):
+    ax.text(i - width / 2, v + 1, str(v), ha="center")
+for i, v in enumerate(b_vals):
+    ax.text(i + width / 2, v + 1, str(v), ha="center")
+
+ax.set_xticks(list(x))
+ax.set_xticklabels(labels)
+ax.set_ylabel("debt")
+ax.set_title(f"the total never moves: {books_total_before} before, {books_total_after} after")
+ax.legend()
+fig.tight_layout()
+fig.savefig("part2-metaphor/figures/c_ledger.png", dpi=110)
+print("saved part2-metaphor/figures/c_ledger.png")
 
 # %% [markdown]
 # ## What just happened, and what did not
