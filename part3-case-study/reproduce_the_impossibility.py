@@ -21,6 +21,7 @@ from pathlib import Path
 import sys
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 DATA = Path("data/compas-scores-two-years.csv")
 if not DATA.exists():
@@ -137,6 +138,38 @@ assert fpr_gap > 0.1, (
 )
 print(f"PASS: base rate gap = {abs(bp - wp):.3f}")
 print(f"PASS: false positive rate gap = {fpr_gap:.3f} (published: about 0.22)")
+
+# %% [markdown]
+# ## The picture
+#
+# Same threshold, same model, opposite errors. This is the ProPublica finding in
+# one chart: whichever error you look at, the two groups do not share it.
+
+# %%
+fig, ax = plt.subplots(figsize=(7, 4.5))
+groups = err.index.tolist()
+x = range(len(groups))
+width = 0.35
+
+fpr_vals = err["false_positive_rate"].values
+fnr_vals = err["false_negative_rate"].values
+
+ax.bar([i - width / 2 for i in x], fpr_vals, width, label="false positive rate", color="#4c72b0")
+ax.bar([i + width / 2 for i in x], fnr_vals, width, label="false negative rate", color="#dd8452")
+
+for i, v in enumerate(fpr_vals):
+    ax.text(i - width / 2, v + 0.01, f"{v:.2f}", ha="center")
+for i, v in enumerate(fnr_vals):
+    ax.text(i + width / 2, v + 0.01, f"{v:.2f}", ha="center")
+
+ax.set_xticks(list(x))
+ax.set_xticklabels(groups)
+ax.set_ylabel("rate")
+ax.set_title("one threshold, one model, opposite errors")
+ax.legend()
+fig.tight_layout()
+fig.savefig("part3-case-study/figures/error_rates_by_group.png", dpi=110)
+print("saved part3-case-study/figures/error_rates_by_group.png")
 
 # %% [markdown]
 # ## Hand-off to the reading
