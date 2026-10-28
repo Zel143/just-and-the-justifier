@@ -23,5 +23,5 @@ Article: https://www.propublica.org/article/machine-bias-risk-assessments-in-cri
 
 No model is trained. No score is produced. No threshold is tuned to be lenient.
 The notebook computes summary statistics that ProPublica and later Chouldechova
-(2017) and Kleinberg et al. (2016) already published, and reads them
-theologically. See `../README.md`, section "What this repo is not".
+(2017) and Kleinberg et al. (2016 preprint, ITCS 2017) already published, and
+reads them theologically. See `../README.md`, section "What this repo is not".

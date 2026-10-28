@@ -4,12 +4,12 @@
 # This notebook does not build anything. It loads a public dataset behind an
 # already-published analysis (ProPublica, 2016) and re-derives a result that
 # ProPublica, then Chouldechova (2017), then Kleinberg, Mullainathan and
-# Raghavan (2016) all published: when two groups have different base rates for an
+# Raghavan (2016 preprint, ITCS 2017) all published: when two groups have different base rates for an
 # outcome, a risk score cannot be equally calibrated across the groups and also
 # give them equal false positive and false negative rates. You get to pick which
 # one to equalize. You cannot have both.
 #
-# The theological reading is in `reading.md`. That prose is yours to write.
+# The theological reading is in `reading.md`.
 #
 # ## What this notebook will not do
 #

@@ -1,7 +1,8 @@
 # %% [markdown]
 # # Notebook C: the two-model ledger
 #
-# **The centerpiece.** Standard library only. No numpy, no sklearn.
+# **The centerpiece.** The arithmetic and the assertions use the standard library
+# only. matplotlib is optional and only draws the figure at the end.
 #
 # The claim from Part 1: substitution *conserves* the cost. The full penalty is
 # still paid. Only the payer changes.
@@ -31,7 +32,6 @@
 
 # %%
 import random
-import matplotlib.pyplot as plt
 
 random.seed(26)
 
@@ -55,8 +55,8 @@ pred_a = model_a_predict(truth)
 # negative here. That asymmetry is a moral choice, not a technical one. See
 # Notebook B.
 COST = {
-    ("fp", ): 5,   # predicted 1, truth 0
-    ("fn", ): 3,   # predicted 0, truth 1
+    "fp": 5,   # predicted 1, truth 0
+    "fn": 3,   # predicted 0, truth 1
 }
 
 def error_kind(y_true, y_pred):
@@ -74,7 +74,7 @@ ledger_a = []  # one entry per mistake: (case_index, kind, cost)
 for i, (yt, yp) in enumerate(zip(truth, pred_a)):
     kind = error_kind(yt, yp)
     if kind is not None:
-        ledger_a.append((i, kind, COST[(kind,)]))
+        ledger_a.append((i, kind, COST[kind]))
 
 debt_a = sum(cost for _, _, cost in ledger_a)
 
@@ -129,30 +129,37 @@ print(f"PASS: Model B carries the whole {debt_b}, exactly what A owed.")
 # ## The picture
 
 # %%
-fig, ax = plt.subplots(figsize=(7, 4.5))
-labels = ["before", "after"]
-x = range(len(labels))
-width = 0.35
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    plt = None
+    print("matplotlib not installed, skipping the figure. The assertions above already passed.")
 
-a_vals = [books_total_before, debt_a_after]
-b_vals = [0, debt_b]
+if plt is not None:
+    fig, ax = plt.subplots(figsize=(7, 4.5))
+    labels = ["before", "after"]
+    x = range(len(labels))
+    width = 0.35
 
-ax.bar([i - width / 2 for i in x], a_vals, width, label="Model A", color="#4c72b0")
-ax.bar([i + width / 2 for i in x], b_vals, width, label="Model B", color="#dd8452")
+    a_vals = [books_total_before, debt_a_after]
+    b_vals = [0, debt_b]
 
-for i, v in enumerate(a_vals):
-    ax.text(i - width / 2, v + 1, str(v), ha="center")
-for i, v in enumerate(b_vals):
-    ax.text(i + width / 2, v + 1, str(v), ha="center")
+    ax.bar([i - width / 2 for i in x], a_vals, width, label="Model A", color="#4c72b0")
+    ax.bar([i + width / 2 for i in x], b_vals, width, label="Model B", color="#dd8452")
 
-ax.set_xticks(list(x))
-ax.set_xticklabels(labels)
-ax.set_ylabel("debt")
-ax.set_title(f"the total never moves: {books_total_before} before, {books_total_after} after")
-ax.legend()
-fig.tight_layout()
-fig.savefig("part2-metaphor/figures/c_ledger.png", dpi=110)
-print("saved part2-metaphor/figures/c_ledger.png")
+    for i, v in enumerate(a_vals):
+        ax.text(i - width / 2, v + 1, str(v), ha="center")
+    for i, v in enumerate(b_vals):
+        ax.text(i + width / 2, v + 1, str(v), ha="center")
+
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(labels)
+    ax.set_ylabel("debt")
+    ax.set_title(f"the total never moves: {books_total_before} before, {books_total_after} after")
+    ax.legend()
+    fig.tight_layout()
+    fig.savefig("part2-metaphor/figures/c_ledger.png", dpi=110)
+    print("saved part2-metaphor/figures/c_ledger.png")
 
 # %% [markdown]
 # ## What just happened, and what did not
@@ -162,8 +169,11 @@ print("saved part2-metaphor/figures/c_ledger.png")
 # its failures is still legible above. That is the shape of substitution.
 #
 # What did not happen: nothing got cheaper. If you want the "grace" here to feel
-# free, notice it is only free for A. B is holding 40-something units of cost it
-# did not create.
+# free, notice it is only free for A. B is holding every unit of cost it did not
+# create, the exact number printed below.
 #
 # Where this stops being a real analogy: a Python list does not suffer. Move to
 # `where-the-analogy-breaks.md`.
+
+# %%
+print(f"Model B carries {debt_b} units of cost it did not create.")

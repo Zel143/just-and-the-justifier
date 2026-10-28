@@ -1,4 +1,5 @@
-# Part 2 Notebook C (the centerpiece) needs none of this; it is stdlib only.
+# Part 2 Notebook C (the centerpiece) needs none of this to run its assertions;
+# matplotlib is optional there and only draws the figure.
 # The rest is for Notebooks A, B, D and Part 3.
 # Verified working on Python 3.14 with the versions noted.
 
