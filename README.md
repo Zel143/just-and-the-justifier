@@ -92,8 +92,17 @@ python part2-metaphor/a_the_loss_is_real.py
 
 or open them as notebooks in VS Code / Jupyter (convert with `jupytext --to ipynb <file>`).
 
-Notebook C (`c_the_two_model_ledger.py`) is the centerpiece and depends only on
-the standard library.
+Notebook C (`c_the_two_model_ledger.py`) is the centerpiece. Its arithmetic and
+assertions depend only on the standard library. matplotlib, if installed, draws
+the figure.
+
+To run every notebook and stop at the first failed assertion:
+
+```bash
+bash scripts/check_all.sh
+```
+
+Part 3 is skipped with a message if the COMPAS CSV has not been downloaded.
 
 ## License
 

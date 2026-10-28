@@ -40,18 +40,21 @@ is trained. Do not propose a "grace-adjusted" scorer.
 | `part1-anchor/01-*.md`, `02-*.md` | anchor essays: the ledger, the test |
 | `part2-metaphor/a_the_loss_is_real.py` | loss does not reach zero |
 | `part2-metaphor/b_cost_sensitive_learning.py` | who pays for each error is a moral choice |
-| `part2-metaphor/c_the_two_model_ledger.py` | centerpiece: cost fully paid and transferred (stdlib only) |
+| `part2-metaphor/c_the_two_model_ledger.py` | centerpiece: cost fully paid and transferred (stdlib; matplotlib optional) |
 | `part2-metaphor/d_calibration.py` | a merciful verdict can still be true; sets up Part 3 |
 | `part2-metaphor/where-the-analogy-breaks.md` | the honesty file |
 | `part3-case-study/reproduce_the_impossibility.py` | COMPAS reproduction, no training |
 | `part3-case-study/reading.md` | theological reading of the result |
 | `part4-synthesis/the-thing-no-optimization-reaches.md` | closing essay |
+| `QUESTIONS.md` | Socratic question log: Ranzel answers, then the repo changes |
+| `scripts/check_all.sh` | runs every notebook, fails on the first assertion |
 
 ## Environment
 
 - Runs in the **Ubuntu** WSL distro. `/mnt/g` is mounted. Virtualenv at `.venv/`.
 - Python 3.14, with numpy 2.5.2 / pandas 3.0.5 / scikit-learn 1.9.0 / matplotlib.
-- `python part2-metaphor/c_the_two_model_ledger.py` needs only the standard library.
+- `python part2-metaphor/c_the_two_model_ledger.py` needs only the standard library
+  (matplotlib is optional and only draws the figure).
 - COMPAS CSV is not committed. `data/README.md` has the one-line curl command.
 
 ## Verifying the code
@@ -63,4 +66,6 @@ python part2-metaphor/b_cost_sensitive_learning.py  # higher fp cost raises the 
 python part2-metaphor/c_the_two_model_ledger.py     # A ledger = 0, total unchanged
 python part2-metaphor/d_calibration.py              # unequal error rates across groups
 python part3-case-study/reproduce_the_impossibility.py   # reproduces ProPublica's numbers
+# or all of the above in one go:
+bash scripts/check_all.sh
 ```
